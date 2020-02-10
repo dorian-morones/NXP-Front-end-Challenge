@@ -7,10 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack --mode development",
-    "build": "webpack --mode production",
-    "reverse": "node server/reverse-proxy.js",
     "dev": "webpack-dev-server --mode development --open",
-    "devproxy": "cross-env NODE_ENV=development concurrently \"yarn dev\"  \"yarn reverse \" "
+    "build": "webpack --mode production"
   },
   "browserslist": {
     "production": [
@@ -29,24 +27,16 @@
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
-    "@babel/plugin-transform-runtime": "^7.8.3",
-    "@babel/polyfill": "^7.8.3",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
-    "axios": "^0.19.2",
     "babel-loader": "^8.0.6",
-    "concurrently": "^5.1.0",
-    "cors": "^2.8.5",
-    "cross-env": "^7.0.0",
     "css-loader": "^3.2.0",
     "file-loader": "^4.2.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",
-    "sugarss": "^2.0.0",
     "webpack": "^4.39.3",
-    "webpack-clean-plugin": "^0.2.3",
     "webpack-cli": "^3.3.7",
     "webpack-dev-server": "^3.8.0"
   },
