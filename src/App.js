@@ -7,7 +7,7 @@ import { Header } from "./components/header.jsx"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App had-container">
       <Header />
     </div>
   );
