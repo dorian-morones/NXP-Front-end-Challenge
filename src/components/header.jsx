@@ -21,17 +21,13 @@ export const Header = () => {
                         </div>
                     </nav>
                 </div>
-                <div className="col s1">
-                    <input placeholder="Placeholder" id="first_name" type="text" class="validate" />
+                <div className="col s2 search">
+                <i class="fas fa-search"></i><input placeholder="Placeholder" id="first_name" type="text" class="validate" />
                 </div>
-                <div className="col s1">
-                    <p>My NXP</p>
-                </div>
-                <div className="col s1">
-                    <p>EN</p>
-                </div>
-                <div className="col s1">
-                    <p>Cart</p>
+                <div className="col s2 menu_apps">
+                    <p><i class="fas fa-user"></i> My NXP</p>
+                    <p><i class="fas fa-globe"></i> EN</p>
+                    <p><i class="fas fa-shopping-cart"></i> Cart</p>
                 </div>
             </div>
         </div>

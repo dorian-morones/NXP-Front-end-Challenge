@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import '../sass/all.scss'
+;
 import 'materialize-css/dist/css/materialize.min.css';
 
 import { Header } from "./components/header.jsx"

@@ -1,0 +1,40 @@
+
+// MENU
+#menu{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color:#fff;
+    border-bottom: 1px solid#ffa700;
+  }
+#menu .row{
+    margin-bottom: 0px;
+}
+.logo{max-width: 100px;}
+nav{
+    background-color: #fff !important;
+    box-shadow: none !important;
+}
+nav a{
+    color: #000 !important;
+}
+
+.menu_apps{
+    display: flex;
+    
+    p:not(last-child){
+        margin-right: 20px;
+    }
+}
+.search{
+    display: flex;
+    border-bottom: solid 1px;
+    i{
+        align-items: center;
+        padding-top: 15px;
+        margin-right: 10px;
+    }
+    #first_name{
+        border-bottom: 0px;
+        margin-bottom: 0px;
+    }
+}
