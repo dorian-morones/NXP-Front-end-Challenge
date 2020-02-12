@@ -1,9 +1,11 @@
+@import "./vars.scss";
+
 
 // MENU
 #menu{
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color:#fff;
+    background-color:$colorWithe;
     border-bottom: 1px solid#ffa700;
   }
 #menu .row{
@@ -11,11 +13,11 @@
 }
 .logo{max-width: 100px;}
 nav{
-    background-color: #fff !important;
+    background-color: $colorWithe !important;
     box-shadow: none !important;
 }
 nav a{
-    color: #000 !important;
+    color:$colorBlack !important;
 }
 
 .menu_apps{
@@ -36,5 +38,48 @@ nav a{
     #first_name{
         border-bottom: 0px;
         margin-bottom: 0px;
+    }
+}
+
+// BANNER
+#Banner{
+    padding: 0px;
+    .col{
+        padding: 0px;
+    }
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 400px;
+    }
+    .article{
+        position: absolute;
+        height: 400px;
+        width: 600px;
+        top: 120px;
+        left: 10%;
+        color: $colorWithe;
+        h2{
+            font-size: 40px;
+            text-shadow: 0px 0px 5px #000;
+            font-weight: 600;
+        }
+    }
+}
+
+#Categories{
+    h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .card-content{
+        min-height: 200px;
+    }
+}
+
+footer{
+    background-color: $colorBlack !important;
+    .footer-copyright{
+        background-color: $colorGrey !important;
     }
 }

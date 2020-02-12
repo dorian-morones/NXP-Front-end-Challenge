@@ -10,8 +10,8 @@ export const Header = () => {
                 </div>
                 <div className="col s7">
                     <nav>
-                        <div class="nav-wrapper">
-                            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <div className="nav-wrapper">
+                            <ul id="nav-mobile" className="left hide-on-med-and-down">
                                 <li><a href="#">Products</a></li>
                                 <li><a href="#">Applications</a></li>
                                 <li><a href="#">Designs</a></li>
@@ -22,12 +22,12 @@ export const Header = () => {
                     </nav>
                 </div>
                 <div className="col s2 search">
-                <i class="fas fa-search"></i><input placeholder="Placeholder" id="first_name" type="text" class="validate" />
+                <i className="fas fa-search"></i><input placeholder="Placeholder" id="first_name" type="text" className="validate" />
                 </div>
                 <div className="col s2 menu_apps">
-                    <p><i class="fas fa-user"></i> My NXP</p>
-                    <p><i class="fas fa-globe"></i> EN</p>
-                    <p><i class="fas fa-shopping-cart"></i> Cart</p>
+                    <p><i className="fas fa-user"></i> My NXP</p>
+                    <p><i className="fas fa-globe"></i> EN</p>
+                    <p><i className="fas fa-shopping-cart"></i> Cart</p>
                 </div>
             </div>
         </div>
