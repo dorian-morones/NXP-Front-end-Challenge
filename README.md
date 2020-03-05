@@ -16,12 +16,12 @@ Create a logic to add / remove products from shopping cart with the following re
 - **Its necesary to have two pages at least, everything else is up to you.**
 
 ## Technical requirements
-- State managers (like Redux)
+- State managers (like API Context, Redux, etc.)
 - Use ES6 syntax (arrow functions, destructuring, async/await, etc)
-- React 16.8+ (hooks for example)
+- React 16.8+.
 - Unit Test to test actions, reducers, fetch, etc.
 - Using common tools for your daily development environment (linterns, code formatting, etc)
-
+- TypeScript is a plus
 
 ## Solution
 
